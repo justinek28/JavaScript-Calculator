@@ -1,0 +1,48 @@
+body { 
+background: url("Cactus.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.btn-default {
+    color: #000 !Important;
+    background-color: rgba(255, 255, 255, 0.76) !Important;
+    border-color: #000 !Important;
+}
+.btn-default:hover {
+    color: #333 !Important;
+    background-color: rgb(99, 193, 100) !Important;
+    border-color: rgba(0, 0, 0, 0.81) !Important;
+}
+
+.buttonsH{
+
+	    min-height: 24px;
+	        border-radius: 1px !Important;
+}
+h5{
+	font-size: 12px;
+}
+
+.footer {
+	    min-height: 10px !Important;
+	    }
+.container
+{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.form-control
+{
+	text-align: right;
+	color: #555 !Important;
+    background-color: rgba(255, 255, 255, 0.98) !Important;
+    border: 2px solid #000 !Important;
+}
+
+.navbar-inverse {
+    background-color: rgb(255, 255, 255) !Important;
+    border-color: #080808 !Important;
+}

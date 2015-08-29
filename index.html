@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- div.containter>h1.title{Herro}+ol>li#item*3  + TAB = Emmet is so boss-->	
+	<div class="container">
+		<h1 class="title"><center>Calculator</center></h1>
+		<br>
+
+		<!-- start calculator -->
+		<div class="calc"><center>
+			<!-- input row -->
+			<div class="form-control screen col-xs-12 buttonsH" id="screen">0</div>
+			<!-- AC | +/- | % | \  -->
+			<button type="button" id="clear" onClick="history.go(0)" class="reset btn btn-default btn-lg col-xs-3 buttonsH">AC</button>
+			<button type="button" id="negative" class="negative-number btn btn-default btn-lg col-xs-3 buttonsH">+/-</button>
+			<button type="button" id="%" class="operator btn btn-default btn-lg col-xs-3 buttonsH">%</button>
+			<button type="button" id="/" class="operator btn btn-default btn-lg col-xs-3 buttonsH">/</button>
+			<!-- 7 | 8 | 9 | X  -->
+			<button type="button" id="7" class="number btn btn-default btn-lg col-xs-3 buttonsH">7</button>
+			<button type="button" id="8" class="number btn btn-default btn-lg col-xs-3 buttonsH">8</button>
+			<button type="button" id="9" class="number btn btn-default btn-lg col-xs-3 buttonsH">9</button>
+			<button type="button" id="*" class="operator btn btn-default btn-lg col-xs-3 buttonsH">X</button>
+			<!-- 4 | 5 | 6 | -  -->
+			<button type="button" id="4" class="number btn btn-default btn-lg col-xs-3 buttonsH">4</button>
+			<button type="button" id="5" class="number btn btn-default btn-lg col-xs-3 buttonsH">5</button>
+			<button type="button" id="6" class="number btn btn-default btn-lg col-xs-3 buttonsH">6</button>
+			<button type="button" id="-" class="operator btn btn-default btn-lg col-xs-3 buttonsH">-</button>
+			<!-- 1 | 2 | 3 | +  -->
+			<button type="button" id="1" class="number btn btn-default btn-lg col-xs-3 buttonsH">1</button>
+			<button type="button" id="2" class="number btn btn-default btn-lg col-xs-3 buttonsH">2</button>
+			<button type="button" id="3" class="number btn btn-default btn-lg col-xs-3 buttonsH">3</button>
+			<button type="button" id="+" class="operator btn btn-default btn-lg col-xs-3 buttonsH">+</button>
+			<!-- 0 | . | =  -->
+			<button type="button" id="0" class="number btn btn-default btn-lg col-xs-6 buttonsH">0</button>
+			<button type="button" id="." class="floating btn btn-default btn-lg col-xs-3 buttonsH">.</button>
+			<button type="button" id="equal" class="equal btn btn-default btn-lg col-xs-3 buttonsH">=</button>
+			<!-- end calculator buttons -->
+		</center></div>
+	</div>
+	<div class="navbar navbar-inverse navbar-fixed-bottom footer" role="navigation"><footer><h5><center>Justine Henderson | UI Designs | www.justinehenderson.com</center></h5>
+	</footer></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
+
+<!-- /http://docs.emmet.io/cheat-sheet/ -->
